@@ -320,7 +320,7 @@ h4 {
   margin-right: 14px;
   width: 44px;
   height: 44px;
-  color: var(--icons-color);
+  fill: var(--icons-color);
   border-radius: 100%;
   cursor: pointer;
   /* padding: 12px; */
@@ -332,6 +332,7 @@ h4 {
 
 .flex-elements-team:hover,
 .flex-elements-team:focus {
+  fill: var(--primary-white-color);
   background-color: var(--accent-color);
 }
 
@@ -340,14 +341,15 @@ h4 {
   align-items: center;
   justify-content: center;
   width: 44px;
-  fill: var(--icons-color);
-  /* height: 44px; */
+  height: 44px;
+
+  fill: inherit;
 }
 
-.social-networking:hover,
+/* .social-networking:hover,
 .social-networking:focus {
   fill: var(--primary-white-color);
-}
+} */
 
 .flex-elements-third {
   width: 270px;
@@ -383,48 +385,28 @@ h4 {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
-  color: var(--icons-color);
+  fill: var(--icons-color);
 }
 
 .flex-elements-clients:nth-child(6n) {
   margin-right: 0;
 }
 
-.flex-elements-clients:hover,
-.flex-elements-clients:focus {
-  color: var(--accent-color);
-  border: 1px solid var(--accent-color);
-}
-
-/* .section-regulars {
+.section-regulars {
   display: flex;
   align-items: center;
   justify-content: center;
 
-  width: 170px;
-  height: 90px;
-  margin-right: 30px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
-  color: var(--icons-color);
-} */
+  width: 100%;
+  height: 100px;
 
-/* .section-regulars:nth-child(6n) {
-  margin-right: 0;
-} */
-
-/* .section-regulars:hover {
-  color: var(--accent-color);
-} */
-
-.flex-logo {
-  fill: var(--icons-color);
+  fill: inherit;
 }
 
-.flex-logo:hover,
-.flex-logo:focus {
+.flex-elements-clients:hover,
+.flex-elements-clients:focus {
   fill: var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 
 /*Button*/
